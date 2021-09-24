@@ -3,10 +3,8 @@
 @import 'var';
 
 
-$font-serif: 'Fraunces',
-serif;
-$font-sans-serif: 'Barlow',
-sans-serif;
+$font-serif: 'Fraunces', serif;
+$font-sans-serif: 'Barlow', sans-serif;
 $border-radius: 10px;
 
 :root {
@@ -418,7 +416,7 @@ footer {
                     background-color: var(--neutral-white);
                     position: absolute;
                     top: -29px;
-                    right: -1px;
+                    right: 0;
                     clip-path: polygon(100% 0, 0% 100%, 100% 100%);
                 }
 
